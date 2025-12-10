@@ -1,0 +1,67 @@
+
+body {
+    font-family: Tahoma, sans-serif;
+    background: #f8f8f8;
+    padding: 30px;
+    direction: rtl;
+    background-image: url('aks.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.section1{
+    margin-bottom: 100px;
+    text-align: center; 
+    margin-top: 20%;
+}
+.section2 {
+    margin-bottom: 100px;
+    text-align: center; 
+    margin-top: 10%;
+}
+.section3{
+    margin-bottom: 100px;
+    text-align: center; 
+    margin-top: 10%;  
+
+}
+.section4{
+    color: #be5f11;
+     margin-bottom: 100px;
+    text-align: center; 
+    margin-top: 10%; 
+}
+.section5{
+    color: #181818;
+     margin-bottom: 100px;
+    text-align: center; 
+    margin-top: 10%; 
+}
+.section6{
+    color: red;
+       margin-bottom: 100px;
+    text-align: center; 
+    margin-top: 10%; 
+}
+.hover-btn {
+    padding: 12px 40px;
+    font-size: 1.1rem;
+    background: #be5f11;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0px 8px 0px 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+    outline: #4CAF50 solid 5px ; 
+    border: 2px solid black; 
+    outline-offset: 3px;
+    margin-left: 5%;
+}
+
+.hover-btn:hover {
+    background: #eeea0b;
+    color: #000000;
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
